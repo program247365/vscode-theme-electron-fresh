@@ -4,9 +4,18 @@
     "description": "Modified electron theme with more visible line highlighting.",
     "version": "1.0.0",
     "publisher": "program247365",
+    "license": "MIT",
+    "author": {
+        "email": "kridgway@gmail.com",
+        "name": "Kevin Ridgway",
+        "url": "http://kevinridgway.com"
+    },
     "repository": {
+        "type": "git",
         "url": "git@github.com:program247365/vscode-theme-electron-fresh.git"
     },
+    "preview": true,
+    "homepage": "https://github.com/program247365/vscode-theme-electron-fresh",
     "scripts": {
         "install": "mkdir $HOME/.vscode/extensions/vscode-theme-electron-fresh/ && cp -r ../vscode-theme-electron-fresh/* $HOME/.vscode/extensions/vscode-theme-electron-fresh/",
         "vscode:prepublish": "vsce package",
