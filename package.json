@@ -9,7 +9,7 @@
     },
     "scripts": {
         "install": "mkdir $HOME/.vscode/extensions/vscode-theme-electron-fresh/ && cp -r ../vscode-theme-electron-fresh/* $HOME/.vscode/extensions/vscode-theme-electron-fresh/",
-        "package": "vsce package",
+        "vscode:prepublish": "vsce package",
         "publish": "vsce publish $npm_package_version"
     },
     "engines": {
