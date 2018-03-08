@@ -4,8 +4,13 @@
     "description": "Modified electron theme with more visible line highlighting.",
     "version": "1.0.0",
     "publisher": "program247365",
+    "repository": {
+        "url": "git@github.com:program247365/vscode-theme-electron-fresh.git"
+    },
     "scripts": {
-        "install": "mkdir $HOME/.vscode/extensions/vscode-theme-electron-fresh/ && cp -r ../vscode-theme-electron-fresh/* $HOME/.vscode/extensions/vscode-theme-electron-fresh/"
+        "install": "mkdir $HOME/.vscode/extensions/vscode-theme-electron-fresh/ && cp -r ../vscode-theme-electron-fresh/* $HOME/.vscode/extensions/vscode-theme-electron-fresh/",
+        "package": "vsce package",
+        "publish": "vsce publish $npm_package_version"
     },
     "engines": {
         "vscode": "^1.21.0"
@@ -21,5 +26,8 @@
                 "path": "./themes/electron-fresh-color-theme.json"
             }
         ]
+    },
+    "devDependencies": {
+        "vsce": "^1.37.5"
     }
 }
