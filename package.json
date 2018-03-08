@@ -1,0 +1,25 @@
+{
+    "name": "electron-fresh",
+    "displayName": "Electron Fresh",
+    "description": "Modified electron theme with more visible line highlighting.",
+    "version": "1.0.0",
+    "publisher": "program247365",
+    "scripts": {
+        "install": "mkdir $HOME/.vscode/extensions/vscode-theme-electron-fresh/ && cp -r ../vscode-theme-electron-fresh/* $HOME/.vscode/extensions/vscode-theme-electron-fresh/"
+    },
+    "engines": {
+        "vscode": "^1.21.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Electron Fresh",
+                "uiTheme": "vs-dark",
+                "path": "./themes/electron-fresh-color-theme.json"
+            }
+        ]
+    }
+}
