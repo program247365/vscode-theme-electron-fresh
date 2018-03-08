@@ -16,6 +16,7 @@
     },
     "preview": true,
     "homepage": "https://github.com/program247365/vscode-theme-electron-fresh",
+    "icon": "images/icon.png",
     "scripts": {
         "install": "mkdir $HOME/.vscode/extensions/vscode-theme-electron-fresh/ && cp -r ../vscode-theme-electron-fresh/* $HOME/.vscode/extensions/vscode-theme-electron-fresh/",
         "vscode:prepublish": "vsce package",
