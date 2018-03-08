@@ -19,8 +19,8 @@
     "icon": "images/icon.png",
     "scripts": {
         "install": "mkdir $HOME/.vscode/extensions/vscode-theme-electron-fresh/ && cp -r ../vscode-theme-electron-fresh/* $HOME/.vscode/extensions/vscode-theme-electron-fresh/",
-        "vscode:prepublish": "vsce package",
-        "publish": "vsce publish $npm_package_version"
+        "vscode:prepub": "vsce package",
+        "pub": "vsce publish $npm_package_version"
     },
     "engines": {
         "vscode": "^1.21.0"
