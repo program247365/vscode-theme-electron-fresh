@@ -23,19 +23,17 @@
         "pub": "vsce publish $npm_package_version"
     },
     "engines": {
-        "vscode": "^1.21.0"
+        "vscode": "^1.10.0"
     },
     "categories": [
         "Themes"
     ],
     "contributes": {
-        "themes": [
-            {
-                "label": "Electron Fresh",
-                "uiTheme": "vs-dark",
-                "path": "./themes/electron-fresh-color-theme.json"
-            }
-        ]
+        "themes": [{
+            "label": "Electron Fresh",
+            "uiTheme": "vs-dark",
+            "path": "./themes/electron-fresh-color-theme.json"
+        }]
     },
     "devDependencies": {
         "vsce": "^1.37.5"
