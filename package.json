@@ -2,7 +2,7 @@
     "name": "electron-fresh",
     "displayName": "Electron Fresh",
     "description": "Modified electron theme with more visible line highlighting.",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "publisher": "program247365",
     "license": "MIT",
     "author": {

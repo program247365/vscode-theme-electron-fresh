@@ -12,3 +12,7 @@ All notable changes to the "electron-fresh" extension will be documented in this
 
 - updated correct `editorLineNumber.activeForeground` for correct highlight
 - updates to activityBar and others
+
+## [1.0.4]
+
+- updated screenshot
